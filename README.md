@@ -7,8 +7,8 @@
   3.可以根据自身需求做自定义模版字段配置
   
 部分效果展示：
-圖片：
 
+圖片：
 
 ![image](https://user-images.githubusercontent.com/35826080/131412917-2538a2a1-f7fe-43e0-a9d7-7e88a7a851ad.png)
 
