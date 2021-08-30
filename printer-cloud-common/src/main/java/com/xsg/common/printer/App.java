@@ -2,7 +2,7 @@ package com.xsg.common.printer;
 
 import com.alibaba.fastjson.JSON;
 import com.xsg.common.printer.action.VoucherHandler;
-import com.xsg.common.printer.constants.TemplateConstants;
+import com.xsg.common.printer.template.TemplateConstants;
 import com.xsg.common.printer.constants.VoucherEnum;
 import com.xsg.common.printer.covert.ElementCovert;
 import com.xsg.common.printer.model.XsgTemplate;
@@ -104,13 +104,13 @@ public class App {
 
     public static String draw() {
         TemplateVo templateVo = new TemplateVo();
-        templateVo.setCname("小狮快送");
+        templateVo.setCname("小高快送");
 //        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_TSPL_HPRT, templateVo));
 //        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_CPCL, templateVo));
 //        VoucherHandler.print(TemplateConstants.getPkgTemplate(), VoucherEnum.PDF, templateVo);
 //        toPrint(TemplateConstants.getPkgTemplate());
 //        toPrint(TemplateConstants.getQsTemplate());
-        return VoucherHandler.print(TemplateConstants.getTuHuoPkgTemplate(), VoucherEnum.PDF, templateVo);
+        return VoucherHandler.print(TemplateConstants.getTuHuoPkgTemplate(), VoucherEnum.IMAGE, templateVo);
     }
 
     private static void toPrint (XsgTemplate template) {

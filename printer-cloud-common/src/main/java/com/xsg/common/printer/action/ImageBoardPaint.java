@@ -47,17 +47,15 @@ public class ImageBoardPaint extends BoardPaint<Graphics2D> {
 
     @Override
     public void drawQrCode(String value, int x, int y, int width, int height, boolean isCompress) {
-        Image image = null;
-        String path = null;
         try {
-            path = QRCodeUtil.drawQRCode(value, width , height);
-            image = ImageUtil.readImage(path, width, height, isCompress);
+            String path = QRCodeUtil.drawQRCode(value, width , height);
+            if (path != null) {
+                Image image = ImageUtil.readImage(path, width, height, isCompress);
+                board.drawImage(image, x , y , null);
+                FileWriterUtils.clearFile(path);
+            }
         } catch (Exception e) {
             e.printStackTrace();
-        }
-        board.drawImage(image, x , y , null);
-        if (path != null) {
-            FileWriterUtils.clearFile(path);
         }
     }
 

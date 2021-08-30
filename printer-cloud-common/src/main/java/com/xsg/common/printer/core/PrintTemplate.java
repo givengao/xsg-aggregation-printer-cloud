@@ -301,7 +301,7 @@ public class PrintTemplate {
                                 .imageElement(new XsgFiled<TemplateVo>().setValueFunction(TemplateVo::getCname).setValue("/Users/zonghuigao/Desktop/image/sz_logo.png"), getDefaultMargin().setLeft(17*8).setTop(3), 10*8, 16*8)
                         )
                         .cellH(42*8, TemplateFluent.Element.create()
-                                .texBElement(new XsgFiled<TemplateVo>().setValueFunction(TemplateVo::getCname).setName("cname").setValue("小狮快送"), getDefaultMargin().setLeft(3).setTop(0), FontSizeEnum.BIG)
+                                .texBElement(new XsgFiled<TemplateVo>().setValueFunction(TemplateVo::getCname).setName("cname").setValue("小高快送"), getDefaultMargin().setLeft(3).setTop(0), FontSizeEnum.BIG)
                                 .textElement(new XsgFiled<TemplateVo>().setTitle("客服：").setValueFunction(TemplateVo::getTel).setValue("15613874848"), getDefaultMargin().setLeft(3).setTop(50), FontSizeEnum.MIDDLE)
                         )
                 ).row(10*8, TemplateFluent.Cell.create()

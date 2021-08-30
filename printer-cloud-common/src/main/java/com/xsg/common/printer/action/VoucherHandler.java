@@ -163,7 +163,7 @@ public class VoucherHandler {
                                 if (value != null && !value.isEmpty()) {
                                     element.getFiled().setValue(value);
                                 } else {
-                                    element.getFiled().setValue("");
+//                                    element.getFiled().setValue(value);
                                 }
                             }
                         }

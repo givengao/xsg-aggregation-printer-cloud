@@ -1,6 +1,7 @@
-package com.xsg.common.printer.constants;
+package com.xsg.common.printer.template;
 
 
+import com.xsg.common.printer.constants.FontSizeEnum;
 import com.xsg.common.printer.core.PrintTemplate;
 import com.xsg.common.printer.core.TemplateFluent;
 import com.xsg.common.printer.model.XsgFiled;
@@ -9,13 +10,13 @@ import com.xsg.common.printer.vo.TemplateVo;
 
 /**
  * @author 高总辉
- * @desc
+ * @desc 打印模板
  * @date 2020/12/9 3:28 下午
  */
 public class TemplateConstants {
 
-    private static String basePath = "/usr/share/fonts/";
-//    private static String basePath = "/Users/zonghuigao/Desktop/image/logo/";
+//    private static String basePath = "/usr/share/fonts/";
+    private static String basePath = "D:\\work\\image\\";
 
     /**
      * 包裹联
@@ -34,7 +35,7 @@ public class TemplateConstants {
                                 .imageElement(new XsgFiled<TemplateVo>().setValue(basePath + "sz_logo.png"), PrintTemplate.getDefaultMargin().setLeft(4*8).setTop(15), 6*8, 19*8)
                         )
                         .cellH(37*8, TemplateFluent.Element.create()
-                                .texBElement(new XsgFiled<TemplateVo>().setValue("小狮快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
+                                .texBElement(new XsgFiled<TemplateVo>().setValue("小高快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
                                 .textElement(new XsgFiled<TemplateVo>().setName("serviceTel").setTitle("客服:").setValue("15613874848"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(45), FontSizeEnum.MIDDLE)
                         )
                 )
@@ -143,7 +144,7 @@ public class TemplateConstants {
                                 .imageElement(new XsgFiled<TemplateVo>().setValue(basePath + "sz_logo.png"), PrintTemplate.getDefaultMargin().setLeft(4*8).setTop(15), 6*8, 19*8)
                         )
                         .cellH(37*8, TemplateFluent.Element.create()
-                                .texBElement(new XsgFiled<TemplateVo>().setValue("小狮快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
+                                .texBElement(new XsgFiled<TemplateVo>().setValue("小高快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
                                 .textElement(new XsgFiled<TemplateVo>().setName("serviceTel").setTitle("客服:").setValue("15613874848"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(45), FontSizeEnum.MIDDLE)
                         )
                 )
@@ -265,10 +266,10 @@ public class TemplateConstants {
         fluent.start(height, width, 1, true)
                 .row(10*8, TemplateFluent.Cell.create()
                         .cellH(31*8, TemplateFluent.Element.create()
-                                .imageElement(new XsgFiled<TemplateVo>().setValue(basePath + "sz_logo.png"), PrintTemplate.getDefaultMargin().setLeft(13*8 + 6).setTop(15), 6*8, 19*8)
+                                .imageElement(new XsgFiled<TemplateVo>().setValue(basePath + "xs_logo.png"), PrintTemplate.getDefaultMargin().setLeft(13*8 + 6).setTop(15), 6*8, 19*8)
                         )
                         .cellH(30*8, TemplateFluent.Element.create()
-                                .texBElement(new XsgFiled<TemplateVo>().setValue("小狮快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
+                                .texBElement(new XsgFiled<TemplateVo>().setValue("小高快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
                                 .textElement(new XsgFiled<TemplateVo>().setName("serviceTel").setTitle("客服:").setValue("15613874848"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(45), FontSizeEnum.MIDDLE)
                         )
                         .cellH(9*8, TemplateFluent.Element.create()
@@ -385,7 +386,7 @@ public class TemplateConstants {
                                 .imageElement(new XsgFiled<TemplateVo>().setValue(basePath + "sz_logo.png"), PrintTemplate.getDefaultMargin().setLeft(13*8 + 6).setTop(15), 6*8, 19*8)
                         )
                         .cellH(30*8, TemplateFluent.Element.create()
-                                .texBElement(new XsgFiled<TemplateVo>().setValue("小狮快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
+                                .texBElement(new XsgFiled<TemplateVo>().setValue("小高快送"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(15).setRight(0), FontSizeEnum.MIDDLE)
                                 .textElement(new XsgFiled<TemplateVo>().setName("serviceTel").setTitle("客服:").setValue("15613874848"),  PrintTemplate.getDefaultMargin().setLeft(0).setTop(45), FontSizeEnum.MIDDLE)
                         )
                         .cellH(9*8, TemplateFluent.Element.create()

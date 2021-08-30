@@ -1,7 +1,7 @@
 package com.xsg.common.printer.core;
 
 import com.alibaba.fastjson.JSON;
-import com.xsg.common.printer.constants.TemplateConstants;
+import com.xsg.common.printer.template.TemplateConstants;
 import com.xsg.common.printer.covert.ElementCovert;
 import com.xsg.common.printer.model.XsgTemplate;
 import com.xsg.common.printer.vo.WaybillVo;

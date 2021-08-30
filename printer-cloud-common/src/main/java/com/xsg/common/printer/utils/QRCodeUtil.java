@@ -58,6 +58,9 @@ public class QRCodeUtil {
      * @return
      */
     public static String drawQRCode (String qrData, int width, int height) {
+        if (StringUtils.isEmpty(qrData)) {
+            return null;
+        }
         File file = new File(basePath, PathUtil.getRandomPngName());
         FileWriterUtils.createIfNotExists(file);
         drawLogoQRCode(null, file, qrData, null, width, height);
