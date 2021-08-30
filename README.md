@@ -1,5 +1,5 @@
 # xsg-aggregation-printer-cloud
-聚合云打印
+聚合打印
 
 能力：
   1.打印模版动态可配置，模版可定制，支持多种输出方式(含：图片，PDF，指令（tspl, cpcl, esc三大主流打印指令），未来将适配更多的打印机)
