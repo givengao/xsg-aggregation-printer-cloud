@@ -9,7 +9,7 @@ import com.xsg.common.printer.model.XsgTemplate;
 import com.xsg.common.printer.vo.TemplateVo;
 
 /**
- * @author 高总辉
+ * @author 李信息
  * @desc 打印模板
  * @date 2020/12/9 3:28 下午
  */
@@ -64,7 +64,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(9*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("receiptAddress").setValue("江西省九江市都昌县都昌一中 老校区一栋106 雪人汽车维修厂"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(1).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("receiptAddress").setValue("江西省九江市都昌县都昌一中 老校区 雪人汽车维修厂"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(1).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -86,7 +86,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(8*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省上饶市鄱阳县银宝湖二中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省九江市都昌县都昌一中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -119,7 +119,7 @@ public class TemplateConstants {
                                 .textElement(new XsgFiled<TemplateVo>().setName("printTime").setTitle("打印时间:").setValue("2020-12-10 12:56:30"),  PrintTemplate.getDefaultMargin().setLeft(10).setTop(7).setRight(0).setRight(0), FontSizeEnum.SMALL)
                         )
                         .cellH(25*8, TemplateFluent.Element.create()
-                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("高总辉"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
+                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("李信息"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
                         )
                 )
         ;
@@ -173,7 +173,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(9*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("receiptAddress").setValue("江西省九江市都昌县都昌一中 老校区一栋106 雪人汽车维修厂"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(1).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("receiptAddress").setValue("江西省九江市都昌县都昌一中 老校区 雪人汽车维修厂"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(1).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -195,7 +195,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(8*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省上饶市鄱阳县银宝湖二中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省九江市都昌县都昌一中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -248,7 +248,7 @@ public class TemplateConstants {
                                 .textElement(new XsgFiled<TemplateVo>().setName("printTime").setTitle("打印时间:").setValue("2020-12-10 12:56:30"),  PrintTemplate.getDefaultMargin().setLeft(10).setTop(7).setRight(0).setRight(0), FontSizeEnum.SMALL)
                         )
                         .cellH(25*8, TemplateFluent.Element.create()
-                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("高总辉"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
+                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("李信息"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
                         )
                 )
         ;
@@ -323,7 +323,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(8*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省上饶市鄱阳县银宝湖二中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省九江市都昌县都昌一中二中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -365,7 +365,7 @@ public class TemplateConstants {
                                 .textElement(new XsgFiled<TemplateVo>().setName("printTime").setTitle("打印时间:").setValue("2020-12-10 12:56:30"),  PrintTemplate.getDefaultMargin().setLeft(10).setTop(7).setRight(0).setRight(0), FontSizeEnum.SMALL)
                         )
                         .cellH(25*8, TemplateFluent.Element.create()
-                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("高总辉"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
+                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("李信息"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
                         )
                 )
         ;
@@ -440,7 +440,7 @@ public class TemplateConstants {
                                 )
                                 .rowH(8*8, TemplateFluent.Cell.create()
                                         .cellH(60*8, TemplateFluent.Element.create()
-                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省上饶市鄱阳县银宝湖二中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
+                                                .textElement(new XsgFiled<TemplateVo>().setName("shipperAddress").setValue("江西省九江市都昌县都昌一中老校区一栋106大石头汽配"),  PrintTemplate.getDefaultMargin().setLeft(1).setTop(5).setRight(0), FontSizeEnum.MIDDLE)
                                         )
                                 )
                         )
@@ -498,7 +498,7 @@ public class TemplateConstants {
                                 .textElement(new XsgFiled<TemplateVo>().setName("printTime").setTitle("打印时间:").setValue("2020-12-10 12:56:30"),  PrintTemplate.getDefaultMargin().setLeft(10).setTop(7).setRight(0).setRight(0), FontSizeEnum.SMALL)
                         )
                         .cellH(25*8, TemplateFluent.Element.create()
-                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("高总辉"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
+                                .textElement(new XsgFiled<TemplateVo>().setName("printBy").setTitle("打印人:").setValue("李信息"),  PrintTemplate.getDefaultMargin().setLeft(20).setTop(7).setRight(0), FontSizeEnum.SMALL)
                         )
                 )
         ;

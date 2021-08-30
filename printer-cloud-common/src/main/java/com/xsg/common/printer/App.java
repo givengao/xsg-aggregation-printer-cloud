@@ -105,8 +105,8 @@ public class App {
     public static String draw() {
         TemplateVo templateVo = new TemplateVo();
         templateVo.setCname("小高快送");
-//        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_TSPL_HPRT, templateVo));
-//        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_CPCL, templateVo));
+//        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_TSPL, templateVo));
+        System.out.println(VoucherHandler.print(TemplateConstants.getQsTemplate(), VoucherEnum.INSTRUCT_CPCL, templateVo));
 //        VoucherHandler.print(TemplateConstants.getPkgTemplate(), VoucherEnum.PDF, templateVo);
 //        toPrint(TemplateConstants.getPkgTemplate());
 //        toPrint(TemplateConstants.getQsTemplate());
