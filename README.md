@@ -1,4 +1,4 @@
-# xsg-aggregation-printer-cloud
+# 聚合打印
 聚合打印
 
 能力：
