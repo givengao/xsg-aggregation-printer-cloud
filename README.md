@@ -11,7 +11,7 @@
 
 ER模型及业务抽象：
 
-    ![打印相关](https://user-images.githubusercontent.com/35826080/132942077-9ec6129f-8066-4be7-88fc-2bb2a0b23182.png)
+   ![打印相关](https://user-images.githubusercontent.com/35826080/132942077-9ec6129f-8066-4be7-88fc-2bb2a0b23182.png)
   
     *面单生成所涉及的类型,角色的动作类型：
                   1.指令类型：包含TSPL,CPCL,ESC三大主流的打印指令类型，适配支持指令打印的打印机
